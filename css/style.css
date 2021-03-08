@@ -3,7 +3,7 @@
 }
 
 html,body {
-    background: #f7d872;
+    background: #f5f4f0;
     min-height: 100vh;
     margin: 0;
 }
@@ -17,8 +17,28 @@ img {
     display: flex;
 }
 
+
 div > div {
     width: 250px;
     height: 250px;
     padding: 20px;
 }
+
+/* BUTTON CSS */
+
+button {
+    font-family: 'fascinate', sans-serif;
+    background-color: #daede0;
+    font-size: 45px;
+}
+
+.active {
+    font-family: 'fascinate', sans-serif;
+    background-color: #bcd1c2;
+}
+
+
+
+
+
+
