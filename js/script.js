@@ -58,13 +58,13 @@ Images.forEach(function (image) {
 console.log(tagList)
 
 
-$(".filter").on("click", function(){
+$(".filter").on("click", function () {
     var tag = $(this).attr("id");
     console.log(tag)
-    
+
     $("." + tag).fadeIn();
     $(".image").not("." + tag).hide();
-    
+
     $(".filter").removeClass("active")
     $(this).addClass("active")
 })
